@@ -1,0 +1,182 @@
+.design1{
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.first{
+  display: flex;
+  background-color: lightpink;
+  width: 100px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.second{
+  background-color: lightblue;
+  width: 200px;
+}
+
+.text{
+  background-color: black;
+  color: white;
+  padding: 0;
+}
+
+
+.design2{
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.one{
+  background-color: lightpink;
+  width: 100px;
+  padding: 30px;
+}
+
+.two{
+  background-color: lightblue;
+  width: 200px;
+}
+
+
+.row{
+  display: flex;
+  justify-content: space-between;
+}
+
+.row2{
+  background-color: black;
+  color: white;
+}
+
+
+
+.design3{
+  font-family: Arial, Helvetica, sans-serif;
+  width: 400px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+  margin-bottom: 30px;
+  border-radius: 10px;
+  padding-bottom: 18px;
+  padding-left: 10px;
+}
+
+.design3:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.inbox{
+  color: #888;
+  padding-top: 10px;
+  padding-left: 2px;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.msg{
+  display: flex;
+  column-gap: 12px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.prof-pic{
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+  object-fit: cover;
+}
+
+.row01{
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+}
+
+.time{
+  color: #999;
+}
+
+.name{
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+.row02{
+ font-size: 15px;
+ font-weight: bold;
+ margin-bottom: 3px;
+}
+
+.row3{
+  color: #777;
+}
+
+
+.design4{
+  display: flex;
+}
+
+.img{
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  object-fit: cover;
+  margin-left: 8px;
+}
+
+
+.right-sec{
+  margin-left: 15px;
+}
+
+.first-row{
+ font-weight: bold;
+ margin-bottom: 4px;
+ margin-left: 8px;
+}
+
+
+
+.channel{
+  color: gray;
+  font-weight: normal;
+}
+
+.second-row{
+  width: 350px;
+  margin-bottom: 4px;
+  margin-left: 8px;
+  margin-bottom: 15px;
+}
+
+.third-row{
+  display: flex;
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 20px;
+  align-items: center;
+  overflow: hidden;
+}
+
+.third-row-left{
+  width: 100px;
+  height: 100px;
+  background-color: rgb(200, 200, 200);
+}
+
+.third-row-right{
+  flex: 1;
+  padding: 10px 10px 10px 10px;
+  
+}
+
+.link{
+  color: gray;
+  margin-bottom: 6px;
+}
+
+.text-overview{
+  width: 200px;
+}

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Position practice 2</title>
+  <style>
+    .header{
+      background-color: white;
+      position: fixed;
+      display: flex;
+      align-items: center;
+      left: 0;
+      right: 0;
+      height: 60px;
+    }
+
+
+    .left-sec{
+      display: flex;
+      align-items: center;
+      padding-left:50px;
+    }
+
+    
+
+    .prof-pic{
+      height: 40px;
+      width: 40px;
+      border-radius: 20px;
+      object-fit: cover;
+    }
+
+    .text{
+      font-family: 'Times New Roman', Times, serif;
+      font-weight: 700;
+      margin-left: 10px;
+    }
+
+
+    .right-sec{
+      position: fixed;
+      right: 0;
+      padding-right: 20px;
+    }
+
+    .buttons{
+      
+      
+    }
+
+    .add-btn{
+      background-color: rgb(14, 148, 225);
+      border: none;
+      color: white;
+      font-size: 12px;
+      font-weight: 700;
+      padding: 12px 20px;
+      border-radius: 8px;
+    }
+
+    .msg-btn{
+      background-color: rgb(242, 242, 242);
+      border: none;
+      color: black;
+      font-size: 12px;
+      font-weight: 700;
+      padding: 12px 20px;
+      border-radius: 8px;
+    }
+
+    .sidebar{
+      padding-top: 80px;
+      display: flex;
+     
+    }
+    .left{
+      background-color: rgba(97, 89, 89, 0.259);
+      width: 100px;
+      padding-left: 8px;
+      padding-top: 15px;
+      padding-bottom: 100px;
+    }
+
+    .prof-img{
+      height: 60px;
+      width: 60px;
+      border-radius: 30px;
+      object-fit: cover;
+      display: block;
+      margin-bottom: 10px;
+      margin-left: 10px;
+    }
+
+    .middle{
+      color: white;
+      background-color: rgb(51, 48, 48);
+      width: 200px;
+    }
+
+    .row1{
+      display: flex;
+      justify-content: space-between;
+      padding: 15px 15px;
+    }
+
+
+    .row{
+      color: gray;
+      padding-left: 20px;
+    }
+
+    .row2{
+
+    }
+    .text3, .text4, .text5{
+      margin-bottom: 12px;
+    }
+
+
+    .right{
+      background-color: white;
+      width: 150px;
+    }
+
+    
+    
+
+
+
+  </style>
+</head>
+<body style="background-color: black;">
+  <div class="header">
+    <div class="left-sec">
+      <img src="../CSS-images/cat.jpg" class="prof-pic">
+      <div class="text">Oliver Cat</div>
+    </div>
+    <div class="right-sec">
+      <div class="buttons">
+      <button class="add-btn">Add Friend</button>
+      <button class="msg-btn">Message</button>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="sidebar">
+    <div class="left">
+      <img src="cat.jpg" class="prof-img">
+      <img src="cat2.jpg" class="prof-img">
+      <img src="dog.jpg" class="prof-img">
+    </div>
+    <div class="middle">
+      <div class="row1">
+      <div class="text1">INFO</div>
+      <div class="text2">+</div>
+      </div>
+      <div class="row">
+      <div class="text3"># new-videos</div>
+      <div class="text4"># updates</div>
+      <div class="text5"># faq</div>
+      </div>
+    </div>
+    <div class="right">
+
+    </div>
+  </div>
+  
+</body>
+</html>
